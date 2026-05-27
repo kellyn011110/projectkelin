@@ -1,0 +1,142 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #pink;
+}
+
+.header {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+nav {
+  background: #333;
+  text-align: center;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropbtn {
+  background: #333;
+  color: white;
+  padding: 14px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 120px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav a {
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  height: 400px;
+}
+
+.card img {
+  width: 100%;
+  object-fit:cover;
+  height:200px;
+}
+
+.harga {
+  color: green;
+  font-weight: bold;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 5px;
+  color: white;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.welcome-box {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.welcome-box h1 {
+  font-size: 50px;
+  color: #5c3d2e;
+}
+
+.welcome-box p {
+  font-size: 20px;
+  color: #7a5c4d;
+}
+
+.btn {
+  background: #d2691e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+body.register-page {
+  background: url("register.png");
+  background-size: cover;
+}
+
+.register-box {
+  width: 300px;
+  background: white;
+  margin: 120px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+.top-banner{
+	width: 100%;
+	height: auto;
+	display: block;
+}
